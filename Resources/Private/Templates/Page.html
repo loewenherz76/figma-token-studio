@@ -1,0 +1,39 @@
+{namespace css=LeonhardBolschakow\FigmaTokenStudio\ViewHelpers}
+
+<html data-namespace-typo3-fluid="true" lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://typo3.org/ns/TYPO3Fluid/Fluid/ViewHelpers">
+
+
+<f:layout name="Default" />
+
+<f:section name="Content">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                {content -> f:format.raw()}
+
+                <p>
+                    <button type="button" class="btn btn-primary">Button</button>
+
+                    <button type="button" class="btn btn-secondary">Button</button>
+
+                    <button type="button" class="btn btn-success">Button</button>
+                </p>
+
+                <div class="alert alert-primary" role="alert">
+                    A simple primary alert—check it out!
+                </div>
+
+                <div class="alert alert-secondary" role="alert">
+                    A simple secondary alert—check it out!
+                </div>
+                <div class="alert alert-success" role="alert">
+                    A simple success alert—check it out!
+                </div>
+            </div>
+        </div>
+    </div>
+
+</f:section>
