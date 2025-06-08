@@ -1,0 +1,19 @@
+{
+  "name": "figma_token_studio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build-tokens": "node build.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "style-dictionary": "^5.0.0"
+  },
+  "dependencies": {
+    "@tokens-studio/sd-transforms": "^2.0.0"
+  }
+}
