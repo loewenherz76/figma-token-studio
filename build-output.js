@@ -9,6 +9,17 @@ register(StyleDictionary, {
     excludeParentKeys: true,
 });
 
+/*
+register(StyleDictionary, {
+    tokenSetOrder: [
+        'bs/global',
+        'Colors/Mode 1',
+        'FontStyles/Mode 1',
+        'Padding/Mode 1'
+    ]
+});
+*/
+
 
 const sd = new StyleDictionary({
     // make sure to have source match your token files!
