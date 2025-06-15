@@ -4,6 +4,10 @@
  * Copyright 2011-2025 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+.btn-primary {
+  color: #ffffff !important;
+}
+
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -4998,8 +5002,8 @@ textarea.form-control-lg {
   --bs-alert-margin-bottom: 1rem;
   --bs-alert-color: inherit;
   --bs-alert-border-color: transparent;
-  --bs-alert-border: var(--bs-border-width) solid var(--bs-alert-border-color);
-  --bs-alert-border-radius: var(--bs-border-radius);
+  --bs-alert-border: 0rem solid var(--bs-alert-border-color);
+  --bs-alert-border-radius: 0;
   --bs-alert-link-color: inherit;
   position: relative;
   padding: var(--bs-alert-padding-y) var(--bs-alert-padding-x);

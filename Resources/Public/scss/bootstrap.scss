@@ -5,6 +5,9 @@
 // Configuration
 @import "functions";
 @import "variables-figma";
+.btn-primary {
+  color: $btn-color !important;
+}
 @import "variables";
 @import "variables-dark";
 @import "maps";
