@@ -1,11 +1,10 @@
 @import "mixins/banner";
 @include bsBanner("");
 
-@import "variables-figma";
-
 // scss-docs-start import-stack
 // Configuration
 @import "functions";
+@import "variables-figma";
 @import "variables";
 @import "variables-dark";
 @import "maps";
